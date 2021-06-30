@@ -1,0 +1,80 @@
+
+.grocery-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.grocery-div ul > li {
+  list-style: none;
+}
+
+.sort-button {
+
+  
+}
+.sorting {
+  display: flex;
+  justify-content: center;
+}
+
+.sorting ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 5px;
+}
+  
+.error{
+  color: red;
+  text-align: center;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form-div form > input {
+  width: 450px;
+  padding: 20px 20px;
+  border: none;
+  border-bottom: 1.5px solid rgb(1, 54, 58);
+}
+
+.form-div form > input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid rgb(3, 84, 87);
+}
+
+.form-div form > input:active {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}
+
+.form-div form > button {
+  color: rgb(255, 255, 255);  
+  padding: 18px; 
+  border-top-left-radius: 50px; 
+  border-top-right-radius: 50px; 
+  border-bottom-right-radius: 50px; 
+  border-bottom-left-radius: 50px;
+  background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%);
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 13px; 
+  line-height: 19px;
+  letter-spacing: 2.6px;
+  word-spacing: 2.8px;
+  color: #000000;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+}
+  .myButton:hover {
+  background: #1C6EA4; 
+}
+  .myButton:active {
+  background: #144E75; 
+}
